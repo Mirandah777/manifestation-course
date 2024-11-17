@@ -1,0 +1,132 @@
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #4a90e2;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+
+h1 {
+    font-weight: 600;
+}
+
+p {
+    font-weight: 300;
+}
+
+/* Section Styling */
+section {
+    padding: 2rem;
+    margin: 2rem auto;
+    max-width: 800px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Quiz Section Styling */
+#quiz-section button {
+    padding: 0.75rem 1.5rem;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#quiz-section button:hover {
+    background-color: #357ab7;
+}
+
+/* Tab Styling */
+.tabs {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1.5rem;
+}
+
+.tablinks {
+    padding: 0.75rem 1.5rem;
+    background-color: #e0e0e0;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.tablinks:hover, .tablinks.active {
+    background-color: #4a90e2;
+    color: white;
+}
+
+.tabcontent {
+    display: none;
+    padding: 1rem;
+    border-top: 1px solid #e0e0e0;
+}
+
+/* Social Proof Section Styling */
+#social-proof {
+    text-align: center;
+}
+
+.carousel {
+    max-width: 600px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.testimonial {
+    display: none;
+    padding: 1rem;
+    font-style: italic;
+    color: #555;
+}
+
+.enrollment-counter {
+    font-size: 1.2rem;
+    margin-top: 2rem;
+}
+
+.trust-badges {
+    margin-top: 1.5rem;
+}
+
+.trust-badges img {
+    width: 80px;
+    margin: 0 10px;
+}
+
+/* Progress Section Styling */
+#progress-bar-container {
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+#progress-bar {
+    background-color: #4a90e2;
+    color: white;
+    text-align: center;
+    padding: 0.5rem;
+    width: 0%;
+    transition: width 0.5s;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+    margin-top: 2rem;
+}
